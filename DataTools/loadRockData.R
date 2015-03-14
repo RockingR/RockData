@@ -1,0 +1,12 @@
+getwd()
+setwd()
+list.files()
+load("z07-15sp.equal.RData")
+load("Ru07-15Spread.Rdata")
+ls()
+rm(list = ls())
+library(sos)
+findFn("ggplot2.zoo")
+findFn("merge.zoo")
+
+View(merge(z07sp.equal, z08sp.equal))
